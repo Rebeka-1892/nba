@@ -1,0 +1,48 @@
+.tableau{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    font-size:5vh;
+    font-weight: inherit;
+    color: #032f4f;
+}
+table{
+    border: #032f4f solid 1px;
+}
+thead{
+    background-color: #032f4f;
+}
+th{    
+    color: #fff;
+    line-height: 1.15em;
+    padding: 9px 6px 5px;
+    vertical-align: bottom;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 400;
+    font-family: Roboto,sans-serif;
+    min-width: 5vw;
+}
+td{
+    font-weight: 700;
+    border: 0;
+    padding: 9px 10px;
+    vertical-align: middle;
+    font-style: normal;
+    font-size: 13px;
+    color: #333;
+    line-height: 1.15em;
+    text-align: center;
+    font-family: Roboto,sans-serif;
+}
+tr:nth-child(even){
+    background-color: #eee;
+}
+.nombre{
+    text-align: right;
+}
